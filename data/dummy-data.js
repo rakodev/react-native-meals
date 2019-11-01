@@ -52,7 +52,7 @@ export const MEALS = [
     "Toast Hawaii",
     "affordable",
     "simple",
-    "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Toast_Hawaii_RZ.jpg/1200px-Toast_Hawaii_RZ.jpg",
     10,
     [
       "1 Slice White Bread",
@@ -78,7 +78,7 @@ export const MEALS = [
     "Classic Hamburger",
     "pricey",
     "simple",
-    "https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/9/9a/Big_Mac_hamburger.jpg",
     45,
     [
       "300g Cattle Hack",
@@ -107,7 +107,7 @@ export const MEALS = [
     "Wiener Schnitzel",
     "luxurious",
     "challenging",
-    "https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wiener_Schnitzel.jpg/800px-Wiener_Schnitzel.jpg",
     60,
     [
       "8 Veal Cutlets",
@@ -140,7 +140,7 @@ export const MEALS = [
     "Salad with Smoked Salmon",
     "luxurious",
     "simple",
-    "https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/60/Mixed_salad_smoked_salmon.jpg",
     15,
     [
       "Arugula",
@@ -172,7 +172,7 @@ export const MEALS = [
     "Delicious Orange Mousse",
     "affordable",
     "hard",
-    "https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/46/Flum1.JPG",
     240,
     [
       "4 Sheets of Gelatine",
@@ -205,7 +205,7 @@ export const MEALS = [
     "Pancakes",
     "affordable",
     "simple",
-    "https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/43/Blueberry_pancakes_%283%29.jpg",
     20,
     [
       "1 1/2 Cups all-purpose Flour",
@@ -234,7 +234,7 @@ export const MEALS = [
     "Creamy Indian Chicken Curry",
     "pricey",
     "challenging",
-    "https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/7/76/Creamy_Chicken_Curry.jpg",
     35,
     [
       "4 Chicken Breasts",
@@ -265,7 +265,7 @@ export const MEALS = [
     "Chocolate Souffle",
     "affordable",
     "hard",
-    "https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6e/Souffle_au_chocolate.jpg",
     45,
     [
       "1 Teaspoon melted Butter",
@@ -311,7 +311,7 @@ export const MEALS = [
     "Asparagus Salad with Cherry Tomatoes",
     "luxurious",
     "simple",
-    "https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/1a/Asparagus_salad_%287342513890%29.jpg",
     30,
     [
       "White and Green Asparagus",
