@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import * as Font from "expo-font";
 import { AppLoading } from "expo";
-import { useScreens } from "react-native-screens";
+import { useScreens, enableScreens } from "react-native-screens";
 
 import MealsNavigator from "./navigation/MealsNavigator";
 
 // improve the performance of the screens rendering
-useScreens();
+enableScreens();
 
 const fetchFonts = () => {
   return Font.loadAsync({
