@@ -7,7 +7,6 @@ import {
   TouchableOpacity
 } from "react-native";
 
-import Colors from "../constants/Colors";
 import { CATEGORIES } from "../data/dummy-data";
 
 const CategoriesScreen = props => {
@@ -32,16 +31,17 @@ const CategoriesScreen = props => {
   };
 
   return (
-    <FlatList data={CATEGORIES} renderItem={renderGridItem} numColumns={2} />
+    <FlatList
+      keyExtractor={(item, index) => item.id}
+      data={CATEGORIES}
+      renderItem={renderGridItem}
+      numColumns={2}
+    />
   );
 };
 
 CategoriesScreen.navigationOptions = {
-  headerTitle: "Meal Categories",
-  headerStyle: {
-    backgroundColor: ""
-  },
-  headerTintColor: Colors.primaryColor
+  headerTitle: "Meal Categories"
 };
 
 const styles = StyleSheet.create({
