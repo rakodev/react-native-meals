@@ -35,4 +35,4 @@ https://youtu.be/rRgb9NKrh_I
 ### Other Demo:
 
 - https://github.com/rakodev/react-native-shopping-app
-- https://github.com/rakodev/react-native-meals
+- https://github.com/rakodev/react-native-guess-number
