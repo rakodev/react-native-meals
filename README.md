@@ -31,3 +31,8 @@ https://youtu.be/rRgb9NKrh_I
   - how to dispatch actions
   - how to add a store reducers
   - how to add a store actions
+
+### Other Demo:
+
+- https://github.com/rakodev/react-native-shopping-app
+- https://github.com/rakodev/react-native-meals
