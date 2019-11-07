@@ -30,7 +30,6 @@ const MealDetailScreen = props => {
   }, [dispatch, mealId]);
 
   useEffect(() => {
-    //   props.navigation.setParams({ mealTitle: selectedMeal.title });
     props.navigation.setParams({ toggleFav: toggleFavoriteHandler });
   }, [toggleFavoriteHandler]);
 
@@ -59,11 +58,9 @@ const MealDetailScreen = props => {
 };
 
 MealDetailScreen.navigationOptions = navigationData => {
-  //   const mealId = navigationData.navigation.getParam("mealId");
   const mealTitle = navigationData.navigation.getParam("mealTitle");
   const toggleFavorite = navigationData.navigation.getParam("toggleFav");
   const isFavorite = navigationData.navigation.getParam("isFav");
-  //   const selectedMeal = MEALS.find(meal => meal.id === mealId);
   return {
     headerTitle: mealTitle,
     headerRight: (
